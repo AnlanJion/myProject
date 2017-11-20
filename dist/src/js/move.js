@@ -1,0 +1,1 @@
+var follow=document.getElementById("follow");ajax_get("../js/more.json",function(e){for(var l=JSON.parse(e),n=0;n<l.length;n++){var o=document.createElement("li");o.innerHTML=' <li><img src="'+l[n].image+'"><h3 class="li-h"><p>'+l[n].chinese+'</p><p class="p1">'+l[n].chinese2+"</h3></li>",follow.appendChild(o)}},function(e){alert(e)});

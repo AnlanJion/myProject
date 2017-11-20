@@ -1,0 +1,1 @@
+define(function(){return{hide:function(){$(".fen").find("li").hover(function(){$(".hide").find(".dang").hide().eq($(this).index()).show(),$(".hide").find(".dang a:odd").css("color","red")},function(){$(".hide").find(".dang").hide()})}}});

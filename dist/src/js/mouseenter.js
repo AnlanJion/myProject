@@ -1,0 +1,1 @@
+define(function(){return{enter:function(){$(function(){$(document).scroll(function(){$(window).scrollTop()>200?($(".xi").css({position:"fixed",top:"0",zIndex:"1000",display:"block"}),$(".xi").find(".go-top").fadeIn()):($(".xi").css({position:"",display:"none"}),$(".xi").find(".go-top").fadeOut())}),$(".go-top").click(function(){$("html,body").animate({scrollTop:0})})})}}});
